@@ -1,0 +1,20 @@
+{
+  "name": "shortstop-fetch",
+  "version": "1.0.0",
+  "description": "a simple shortstop handler to fetch remote data",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "keywords": ["shortstop"],
+  "author": "Jean-Charles Sisk <jasisk@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "nock": "^8.0.0",
+    "shortstop": "^1.0.3",
+    "tap": "^6.1.1"
+  },
+  "dependencies": {
+    "wreck": "^8.0.0"
+  }
+}
